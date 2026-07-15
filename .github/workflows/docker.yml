@@ -19,6 +19,6 @@ jobs:
 
       - uses: docker/build-push-action@v6
         with:
-          context: ./Dockerfile
+          context: .
           push: true
           tags: vinayabcreports/devops:latest
